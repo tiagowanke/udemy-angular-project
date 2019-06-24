@@ -1,0 +1,13 @@
+{
+  "serverless": {
+    "provider": "aws",
+    "project": "udemy-project",
+    "skipInstall": false,
+    "directory": ".",
+    "clientProject": "udemy-project",
+    "serverless": {
+      "aws": {},
+      "gcloud": {}
+    }
+  }
+}
