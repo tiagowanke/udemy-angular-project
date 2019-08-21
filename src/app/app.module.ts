@@ -8,12 +8,9 @@ import { UnlessDirective } from './shared/directive/unless.directive';
 import {AppRoutingModule} from './app-routing.module';
 import {FormsModule} from '@angular/forms';
 
-import {RecipesModules} from './recipes/recipes.modules';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {AuthInterceptorService} from './auth/auth-interceptor.service';
 import {SharedModule} from './shared/shared.module';
-import {ShoppingListModule} from './shopping-list/shopping-list.module';
-import {AuthModule} from './auth/auth.module';
 
 @NgModule({
   declarations: [
@@ -27,9 +24,6 @@ import {AuthModule} from './auth/auth.module';
     FormsModule,
     HttpClientModule,
     AppRoutingModule,
-    AuthModule,
-    RecipesModules,
-    ShoppingListModule,
     SharedModule
   ],
   providers: [

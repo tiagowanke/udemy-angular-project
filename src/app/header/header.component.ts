@@ -14,7 +14,7 @@ import {Recipe} from '../recipes/recipe.model';
 })
 export class HeaderComponent implements OnInit, OnDestroy {
 
-  private isAuthenticate = false;
+  isAuthenticate = false;
   private destroy$ = new Subject<void>();
 
   constructor(private dataStorageService: DataStorageService,
